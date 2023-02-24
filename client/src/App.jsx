@@ -1,20 +1,9 @@
-import './App.css';
+import { SideBar } from "./components/SideBar";
 
 function App() {
   return (  
-    <div className="App">
-        <div class='main-grid'>
-            <div class='left-navbar-area'>
-              <nav class='left-navbar'>
-                  <ul>
-                    <li></li>
-                  </ul>
-              </nav>
-            </div>
-            <div class='account-bar-area'></div>
-            <div class='music-area'></div>
-            <div class='player-area'></div>
-        </div>
+    <div className="flex">
+      <SideBar className='text-sky-500'></SideBar>
     </div>
   );
 }
