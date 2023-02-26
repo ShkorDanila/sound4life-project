@@ -1,9 +1,19 @@
-import { SideBar } from "./components/SideBar";
+import './App.css';
+import { SideBar } from './components/SideBar/SideBar';
+import { PlayBar } from './components/PlayBar';
 
 function App() {
-  return (  
-    <div className="flex">
-      <SideBar className='text-sky-500'></SideBar>
+  return (
+    <div className="vertical-layer-1">
+      <div>
+          <SideBar/>
+
+          <div>
+
+          </div>
+
+      </div>
+      <PlayBar></PlayBar>
     </div>
   );
 }

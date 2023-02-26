@@ -1,0 +1,32 @@
+.sidebar-full {
+    display: flex;
+    flex-direction: column;
+    background-color: #050505;
+    width:max-content;
+    height: auto;
+}
+
+.main-logo {
+    display: flex;  
+    margin-top: 15px;
+    margin-left: 30px; 
+}
+
+.logo-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    margin-left: 40px;
+    padding-right: 40px;
+    color: #FFFFFF;
+}
+
+.menu-option {
+    padding: 20px;
+}
+
+.uk-nav-bar {
+    color: wheat;
+}
