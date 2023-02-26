@@ -1,0 +1,20 @@
+.logo {
+    display: flex;  
+    padding-left: 30px;
+}
+
+.logo-text-style {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 41px;
+    margin-left: 40px;
+    padding-right: 40px;
+    color: #FFFFFF;
+}
+
+.logo:hover {
+    background-color: #171717;
+    cursor: pointer;
+}
