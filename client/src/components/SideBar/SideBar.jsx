@@ -10,19 +10,20 @@ import { IconText } from '../IconText/IconText'
 
 const SideBar = () => {
     return (
-        <div className="sidebar-full">
-            <div className='main-logo'>
+        <div className="sidebar-flex">
+            <div className='sidebar-logo'>
                 <img src={MainLogo}></img>
                 <p className='logo-text'>Sound4Life</p>
             </div>
-            <div className='navbar-left'>
-            <IconText text="Главная" url={HomeLogo}></IconText>
-            <IconText text="Поиск" url={LoopaLogo}></IconText>
-            <IconText text="Медиатека" url={MediaLogo}></IconText>
-            <hr className='line'></hr>
-            <IconText text="Создать плейлись" url={PlusLogo}></IconText>
-            <IconText text="Любимые треки" url={LikeLogo}></IconText>
-            </div>
+            <nav>
+                <ul className='nav-side-bar'>
+                    <li><IconText text='Главная' url={HomeLogo}></IconText></li>
+                    <li><IconText text='Поиск' url={LoopaLogo}></IconText></li>
+                    <li><IconText text='Медиатека' url={MediaLogo}></IconText></li>
+                    <li><IconText text='Главная' url={PlusLogo}></IconText></li>
+                    <li><IconText text='Главная' url={LikeLogo}></IconText></li>
+                </ul>
+            </nav>
         </div>
     )
 }

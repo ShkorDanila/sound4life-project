@@ -1,33 +1,38 @@
-.sidebar-full {
+.sidebar-flex{
     display: flex;
     flex-direction: column;
     background-color: #050505;
-    min-width: 20%;
-    min-height: 100%;
-    position: absolute; 
+    min-width: 350px;
+    width: 350px;
+    padding-bottom: 80px;
 }
 
-.main-logo {
-    display: flex;  
-    padding-top: 15px;
-    padding-left: 30px; 
-    padding-bottom: 10px;
-}
 
 .logo-text {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 41px;
-    margin-left: 40px;
-    padding-right: 40px;
     color: #FFFFFF;
 }
 
+.sidebar-logo{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-.sidebar-full hr{
+.nav-side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: border-box;
+}
+
+.nav-side-bar li {
     margin-top: 20px;
-    width: 340px;
-    border-color: #545454;
+    margin-bottom: 20px;
+    min-width: 100%;
 }

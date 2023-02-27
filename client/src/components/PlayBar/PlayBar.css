@@ -1,113 +1,14 @@
-.player-footer {
-    position: absolute; 
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    background-color: #181818;
+.footer-layout {
     display: flex;
-    border-top: #262626;
-    border-top-style: solid;
-    align-items: center;
-    justify-content: space-between;
-    }
-    
-    .label-img-footer {
-    width: 80px;
-    height: 80px;
-    margin-left: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    }
-    
-    .song-name-footer {
-    margin-left: 20px;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 700;
-    }
-
-    .footer-track-info {
-        display: flex;
-        align-items: center;
-    }
-
-    .volume-slide-container{
-        margin-right: 20px;
-    }
-    
-    .music-slide-container{
-        padding-top: 10px;
-    }
-
-    .mus-slider{
-        -webkit-appearance: none;  /* Override default CSS styles */
-        appearance: none;
-        
-        width: 500px; /* Full-width */
-        height: 10px; /* Specified height */
-        background: #555555; /* Grey background */
-        outline: none; /* Remove outline */
-        opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-        -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-        transition: opacity .2s;
-    }
-
-    .mus-slider:hover {
-        opacity: 1; /* Fully shown on mouse-over */
-      }
-
-      .mus-slider::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%; 
-        background: #f3f3f3;
-        cursor: pointer;
-      }
-      
-
-.music-player-middle{
-    display: flex;
-    flex-direction: column;
-}
-
-.player-control-buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.left-switch-track-button {
-    width: 35px;
-    height: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-repeat: no-repeat;
-    border-radius: 50%;
     background-color: #181818;
-    border: none;
-    background-image: url('./resources/backward.svg');
 }
 
-.right-switch-track-button {
-    width: 35px;
-    height: 25px;
-    background-repeat: no-repeat;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #181818;
-    border: none;
-    background-image: url('./resources/forward.svg');
+.playing-song-info {
+
 }
 
-.play-track-button {
-    width: 35px;
-    background-repeat: no-repeat;
-    height: 35px;
-    background-color: #181818;
-    border: none;
-    background-image: url('./resources/play.svg');
+.label-img {
+    margin: 25px;
+    width: 70px;
+    height: 70px;
 }

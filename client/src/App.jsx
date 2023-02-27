@@ -5,12 +5,16 @@ import { IconText } from './components/IconText/IconText';
 
 function App() {
   return (
-    <div className="vertical-layer-1">
-      <div>
-        <SideBar></SideBar>
+    <div>
+      <div class="wrapper">
 
+        <div class="content">
+          <SideBar></SideBar>
+        </div>
+
+        <div class="footer"></div>
+          <PlayBar></PlayBar>
       </div>
-      <PlayBar></PlayBar>
     </div>
   );
 }
